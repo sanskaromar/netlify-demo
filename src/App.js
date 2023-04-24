@@ -1,23 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import PDFViewer from './components/PDFViewer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="bg-emerald-300 h-screen flex flex-col justify-center items-center">
+      <p className="font-bold underline text-4xl p-24 text-yellow-950"> Netlify Demo</p>
     </div>
   );
 }
